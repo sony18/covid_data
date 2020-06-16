@@ -1,0 +1,58 @@
+
+.outer__wrapper{
+    max-width:90%;
+    margin:0 auto;
+    padding:0 20px;
+    min-height:auto;
+}
+.header-img{
+    background-image: url('../images/cactus.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding:.5rem 3rem;
+}
+#list li{
+      font-size:1rem  ;
+      font-weight: bold;
+    }
+    #list .btn-large{
+        padding:0px 15px;
+    }
+.date{
+    font-size: 1.8rem;
+    background:rgba(0,0,0,0.2);
+    padding:1rem
+}
+.time{
+    font-size: 2rem;
+}
+.card__row{
+    margin-bottom:0!important;
+}
+
+.card-content{
+    padding-top:0!important;
+}
+.country__title{
+    margin-top:0;
+}
+
+
+@media (min-width:601px){
+    .right__bar{
+        border-left:3px solid grey; 
+        box-shadow: 0 0 10px;
+    }
+}
+/* chart container positioning */
+.chart{
+    position: relative;
+    min-height: 50vh;
+    max-width: 100%;
+}
+
+/* UTILITIES */
+.bg__color{
+    background: #51476A;  
+}
